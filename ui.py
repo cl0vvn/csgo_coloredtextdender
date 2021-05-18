@@ -37,7 +37,7 @@ class Ui_coloredtxt(object):
         if not coloredtxt.objectName():
             coloredtxt.setObjectName(u"coloredtxt")
         coloredtxt.resize(431, 120)
-        coloredtxt.setMinimumSize(QSize(401, 120))
+        coloredtxt.setMinimumSize(QSize(431, 120))
         coloredtxt.setMaximumSize(QSize(431, 120))
         self.plainTextEdit = QPlainTextEdit(coloredtxt)
         self.plainTextEdit.setObjectName(u"plainTextEdit")
